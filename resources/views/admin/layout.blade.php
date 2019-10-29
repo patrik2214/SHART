@@ -333,6 +333,8 @@
                       
                       <div class="row mt">
                       <!-- SERVER STATUS PANELS -->
+
+                      <!-- Sara pensaba que desde aca hasta donde te ponga poner @yield('content') -->
                       	<div class="col-md-4 col-sm-4 mb">
                       		<div class="white-panel pn donut-chart">
                       			<div class="white-header">
@@ -465,6 +467,10 @@
 					
 					<div class="row mt">
                       <!--CUSTOM CHART START -->
+
+                    <!--Podemos Tomar hasta acá o seria  -->
+
+
                       <div class="border-head">
                           <h3>VISITS</h3>
                       </div>
@@ -508,9 +514,10 @@
                       </div>
                       <!--custom chart end-->
 					</div><!-- /row -->	
-					
+                    
+                   
                   </div><!-- /col-lg-9 END SECTION MIDDLE -->
-                  
+                 <!--Hasta aca tamb puede ser q dices   -->
                   
       <!-- **********************************************************************************************************************************************************
       RIGHT SIDEBAR CONTENT
