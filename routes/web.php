@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'FrontEndControlle@index'); 
 
-Route::get('admin', function () {
-    return view('admin.dashboard');
-});
+

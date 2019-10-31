@@ -10,19 +10,19 @@
     <title>SHART</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{adminlte('css/bootstrap.css')}}" rel="stylesheet">
+    <link href="{{assets('adminlte/css/bootstrap.css')}}" rel="stylesheet">
     <!--external css-->
-    <link href= "{{adminlte('font-awesome/css/font-awesome.css')}}" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="{{adminlte('css/zabuto_calendar.css')}}">                                            
-    <link rel="stylesheet" type="text/css" href="{{adminlte('js/gritter/css/jquery.gritter.css')}}" /> 
-    <link rel="stylesheet" type="text/css" href="{{adminlte('lineicons/style.css')}}">    
+    <link href= "{{assets('font-awesome/css/font-awesome.css')}}" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="{{assets('adminlte/css/zabuto_calendar.css')}}">                                            
+    <link rel="stylesheet" type="text/css" href="{{assets('adminlte/js/gritter/css/jquery.gritter.css')}}" /> 
+    <link rel="stylesheet" type="text/css" href="{{assets('adminlte/lineicons/style.css')}}">    
    
     <!-- Custom styles for this template -->
    
-    <link href="{{adminlte('css/style.css')}}" rel="stylesheet">
-    <link href= "{{adminlte('css/style-responsive.css')}}" rel="stylesheet">
+    <link href="{{assets('adminlte/css/style.css')}}" rel="stylesheet">
+    <link href= "{{assets('adminlte/css/style-responsive.css')}}" rel="stylesheet">
     
-    <script src="{{adminlte('js/chart-master/Chart.js')}}"></script>
+    <script src="{{assets('adminlte/js/chart-master/Chart.js')}}"></script>
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -130,7 +130,7 @@
                             </li>
                             <li>
                                 <a href="index.html#">
-                                    <span class="photo"><img alt="avatar" src="adminlte/img/ui-zac.jpg"></span>
+                                    <span class="photo"><img alt="avatar" src="assets/img/ui-zac.jpg"></span>
                                     <span class="subject">
                                     <span class="from">Zac Snider</span>
                                     <span class="time">Just now</span>
@@ -142,7 +142,7 @@
                             </li>
                             <li>
                                 <a href="index.html#">
-                                    <span class="photo"><img alt="avatar" src="adminlte/img/ui-divya.jpg"></span>
+                                    <span class="photo"><img alt="avatar" src="assets/img/ui-divya.jpg"></span>
                                     <span class="subject">
                                     <span class="from">Divya Manian</span>
                                     <span class="time">40 mins.</span>
@@ -154,7 +154,7 @@
                             </li>
                             <li>
                                 <a href="index.html#">
-                                    <span class="photo"><img alt="avatar" src="adminlte/img/ui-danro.jpg"></span>
+                                    <span class="photo"><img alt="avatar" src="assets/img/ui-danro.jpg"></span>
                                     <span class="subject">
                                     <span class="from">Dan Rogers</span>
                                     <span class="time">2 hrs.</span>
@@ -166,7 +166,7 @@
                             </li>
                             <li>
                                 <a href="index.html#">
-                                    <span class="photo"><img alt="avatar" src="adminlte/img/ui-sherman.jpg"></span>
+                                    <span class="photo"><img alt="avatar" src="assets/img/ui-sherman.jpg"></span>
                                     <span class="subject">
                                     <span class="from">Dj Sherman</span>
                                     <span class="time">4 hrs.</span>
@@ -202,7 +202,7 @@
               <!-- sidebar menu start-->
               <ul class="sidebar-menu" id="nav-accordion">
               
-              	  <p class="centered"><a href="profile.html"><img src="adminlte/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
+              	  <p class="centered"><a href="profile.html"><img src="assets/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
               	  <h5 class="centered">Marcel Newman</h5>
               	  	
                   <li class="mt">
@@ -306,24 +306,24 @@
   </section>
 
     <!-- js placed at the end of the document so the pages load faster -->
-    <script src="{{adminlte('js/jquery.js')}}"></script>
-    <script src="{{adminlte('js/jquery-1.8.3.min.js')}}"></script>
-    <script src="{{adminlte('js/bootstrap.min.js')}}"></script>
-    <script class="include" src="{{adminlte('js/jquery.dcjqaccordion.2.7.js')}}"></script>
-    <script src="{{adminlte('js/jquery.scrollTo.min.js')}}"></script>
-    <script src="{{adminlte('js/jquery.nicescroll.js')}}" type="text/javascript"></script>
-    <script src="{{adminlte('js/jquery.sparkline.js')}}"></script>
+    <script src="{{assets('adminlte/js/jquery.js')}}"></script>
+    <script src="{{assets('adminlte/js/jquery-1.8.3.min.js')}}"></script>
+    <script src="{{assets('adminlte//bootstrap.min.js')}}"></script>
+    <script class="include" src="{{assets('adminlte/js/jquery.dcjqaccordion.2.7.js')}}"></script>
+    <script src="{{assets('adminlte/js/jquery.scrollTo.min.js')}}"></script>
+    <script src="{{assets('adminlte/js/jquery.nicescroll.js')}}" type="text/javascript"></script>
+    <script src="{{assets('adminlte/js/jquery.sparkline.js')}}"></script>
 
     
     <!--common script for all pages-->
-    <script src="{{adminlte('js/common-scripts.js')}}"></script>
+    <script src="{{assets('adminlte/js/common-scripts.js')}}"></script>
     
-    <script src="{{adminlte('js/gritter/js/jquery.gritter.js')}}"></script>
-    <script src="{{adminlte('js/gritter-conf.js')}}"></script>
+    <script src="{{assets('adminlte/js/gritter/js/jquery.gritter.js')}}"></script>
+    <script src="{{assets('adminlte/js/gritter-conf.js')}}"></script>
 
     <!--script for this page-->
-    <script src="{{adminlte('js/sparkline-chart.js')}}"></script>    
-	<script src="{{adminlte('js/zabuto_calendar.js')}}"></script>	
+    <script src="{{assets('adminlte/js/sparkline-chart.js')}}"></script>    
+	<script src="{{assets('adminlte/js/zabuto_calendar.js')}}"></script>	
 	
 	<script type="text/javascript">
         $(document).ready(function () {
@@ -333,7 +333,7 @@
             // (string | mandatory) the text inside the notification
             text: 'Hover me to enable the Close Button. You can hide the left sidebar clicking on the button next to the logo. Free version for <a href="http://blacktie.co" target="_blank" style="color:#ffd777">BlackTie.co</a>.',
             // (string | optional) the image to display on the left
-            image: 'adminlte/img/ui-sam.jpg',
+            image: 'assets/img/ui-sam.jpg',
             // (bool | optional) if you want it to fade out on its own or just sit there
             sticky: true,
             // (int | optional) the time you want it to be alive for before fading out
