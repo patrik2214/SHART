@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +7,22 @@
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
-    <title>DASHGUM - FREE Bootstrap Admin Template</title>
+    <title>SHART</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="adminlte/css/bootstrap.css" rel="stylesheet">
+    <link href="{{adminlte('css/bootstrap.css')}}" rel="stylesheet">
     <!--external css-->
-    <link href="adminlte/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="adminlte/css/zabuto_calendar.css">
-    <link rel="stylesheet" type="text/css" href="adminlte/js/gritter/css/jquery.gritter.css" />
-    <link rel="stylesheet" type="text/css" href="adminlte/lineicons/style.css">    
-    
+    <link href= "{{adminlte('font-awesome/css/font-awesome.css')}}" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="{{adminlte('css/zabuto_calendar.css')}}">                                            
+    <link rel="stylesheet" type="text/css" href="{{adminlte('js/gritter/css/jquery.gritter.css')}}" /> 
+    <link rel="stylesheet" type="text/css" href="{{adminlte('lineicons/style.css')}}">    
+   
     <!-- Custom styles for this template -->
-    <link href="adminlte/css/style.css" rel="stylesheet">
-    <link href="adminlte/css/style-responsive.css" rel="stylesheet">
-
-    <script src="adminlte/js/chart-master/Chart.js"></script>
+   
+    <link href="{{adminlte('css/style.css')}}" rel="stylesheet">
+    <link href= "{{adminlte('css/style-responsive.css')}}" rel="stylesheet">
+    
+    <script src="{{adminlte('js/chart-master/Chart.js')}}"></script>
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -295,7 +296,7 @@
       <!--footer start-->
       <footer class="site-footer">
           <div class="text-center">
-              2014 - Alvarez.is
+              2019 - Shart.is
               <a href="index.html#" class="go-top">
                   <i class="fa fa-angle-up"></i>
               </a>
@@ -305,24 +306,24 @@
   </section>
 
     <!-- js placed at the end of the document so the pages load faster -->
-    <script src="adminlte/js/jquery.js"></script>
-    <script src="adminlte/js/jquery-1.8.3.min.js"></script>
-    <script src="adminlte/js/bootstrap.min.js"></script>
-    <script class="include" type="text/javascript" src="adminlte/js/jquery.dcjqaccordion.2.7.js"></script>
-    <script src="adminlte/js/jquery.scrollTo.min.js"></script>
-    <script src="adminlte/js/jquery.nicescroll.js" type="text/javascript"></script>
-    <script src="adminlte/js/jquery.sparkline.js"></script>
+    <script src="{{adminlte('js/jquery.js')}}"></script>
+    <script src="{{adminlte('js/jquery-1.8.3.min.js')}}"></script>
+    <script src="{{adminlte('js/bootstrap.min.js')}}"></script>
+    <script class="include" src="{{adminlte('js/jquery.dcjqaccordion.2.7.js')}}"></script>
+    <script src="{{adminlte('js/jquery.scrollTo.min.js')}}"></script>
+    <script src="{{adminlte('js/jquery.nicescroll.js')}}" type="text/javascript"></script>
+    <script src="{{adminlte('js/jquery.sparkline.js')}}"></script>
 
-
-    <!--common script for all pages-->
-    <script src="adminlte/js/common-scripts.js"></script>
     
-    <script type="text/javascript" src="adminlte/js/gritter/js/jquery.gritter.js"></script>
-    <script type="text/javascript" src="adminlte/js/gritter-conf.js"></script>
+    <!--common script for all pages-->
+    <script src="{{adminlte('js/common-scripts.js')}}"></script>
+    
+    <script src="{{adminlte('js/gritter/js/jquery.gritter.js')}}"></script>
+    <script src="{{adminlte('js/gritter-conf.js')}}"></script>
 
     <!--script for this page-->
-    <script src="adminlte/js/sparkline-chart.js"></script>    
-	<script src="adminlte/js/zabuto_calendar.js"></script>	
+    <script src="{{adminlte('js/sparkline-chart.js')}}"></script>    
+	<script src="{{adminlte('js/zabuto_calendar.js')}}"></script>	
 	
 	<script type="text/javascript">
         $(document).ready(function () {
